@@ -14,7 +14,7 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_text("زبان را انتخاب کنید:", reply_markup=reply_markup)
 
 def main():
-    app = Application.builder().token("توکن_ربات_تو").build()
+    app = Application.builder().token("7849594508:AAHZAtjbjvmpJdmFATTd7aN-g3ozXONBwSE").build()
     app.add_handler(CommandHandler("start", start))
     app.run_polling()
 
